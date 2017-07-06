@@ -1,0 +1,42 @@
+body {
+	margin: 2% 2% 2% 2%;
+    font-family:"Times New Roman";
+}
+
+p {
+	text-indent: .3in;
+    margin: 0 0 0 0;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+	text-align: center;
+	font-weight: normal;
+}
+
+div.wrap {
+	margin: 1em auto;
+	text-align: center;
+	page-break-before: always;
+}
+
+div.wrap-inner {
+	display: inline-block;
+	page-break-inside: avoid;
+}
+
+img.wrapped {
+	width: 100%;
+	display: inline;
+}
+
+span.caption {
+	font-size: 90%;
+	font-style: italic;
+}
+
+hr {
+	width: 20%;
+	text-align: center;
+	margin-top: 5em
+}
